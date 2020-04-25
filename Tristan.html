@@ -1,114 +1,101 @@
 me
 
 
+
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
  <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Funklet Machine</title>
-   <meta property="og:title" content="Funklet Machine"/>
-   <meta property="og:site_name" content="Funklet.com"/>
-   <meta property="og:type" content="video"/>
-   <meta property="og:image" content="http://machine.funklet.com/funklet-icon.png">
-   <meta property="og:description" content="You can play 'Yesterday' on an oboe.  You can play 'Cold Sweat' on an 808.  Funklet is a social beat-melody sharing platform.">
-   <link rel="stylesheet" href="/style/diagram.css?v=5"/>
+   <title>It’s A New Day /// Funklet</title>
+   <link rel="stylesheet" href="/style/style.css"/>
+   <script src="/script/jquery.js"></script>
+   <meta property="og:image" content="http://alpha.funklet.com/images/bragg.jpg"/>
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4846859-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
  </head>
  <body>
-  <div id="center">
-   <div id="hover-trigger">
-   <div id="outside-container">
-     <div id="diagram-container">
-       <div id="diagram">
-         <div id="decoration"></div>
-         <div id="stub-left" class="stub"></div>
-         <div id="stub-right" class="stub"></div>
-         <div id="grid-container">
-           <div id="grid">
-             <div class="tr modifiers"></div>
-             <div class="tr hat"></div>
-             <div class="tr snare"></div>
-             <div class="tr kick"></div>
-            </div>
-         </div>
-         <div id="mutes" class="hoveronly">
-           <div class="mute"></div>
-           <div class="mute"></div>
-           <div class="mute"></div>
-         </div>
-         <div id="jds" class="hoveronly">
-           <div class="jd"><div>-</div><div>+</div></div>
-           <div class="jd"><div>-</div><div>+</div></div>
-           <div class="jd"><div>-</div><div>+</div></div>
-         </div>
-         <div id="rates" class="hoveronly">
-           <div class="rate"><div class="meter"></div></div>
-           <div class="rate"><div class="meter"></div></div>
-           <div class="rate"><div class="meter"></div></div>
-         </div>
-         <div id="alts" class="hoveronly">
-            <div class="alt">&#8997;</div>
-            <div class="alt">&#8997;</div>
-            <div class="alt">&#8997;</div>
-          </div>
-       </div>
-       <div id="controls">
-         <form id="bpm-form">
-           <div id="indicator-outer">
-            <div id="indicator"></div>
-           </div>
-           <div id="unsupported">?</div>
-           <div id="explanation">Currently the Funklet machine only runs in Chrome (and Webkit nightlies, if that phrase means anything to you). It may soon run in Firefox too.</div>
-           <div id="divisor">
-             <input id="bpm" type="text" value=""/>
-             <input id="bpm-divisor" type="text" value="1"/>
-            </div>
-           <button class="control" id="start">&#9654;</button>
-           <button class="control" id="stop">&#9724;</button>
-           &nbsp;
-           <span style="font-size:10px">@</span>
-           <span id="bpm-spacer"></span>
-           <span>BPM</span>
-         </form>
-
-         <a href="#" id="save" target="_blank" style="left:180px" class="grey-button hoveronly">¶</a>
-         <a href="#" id="midi" target="_blank" style="left:220px" class="grey-button hoveronly">ℳ</a>
-         <a href="#" id="shortcuts" class="grey-button hoveronly">⚡</a>
-
-         <div id="measures"></div>
-         <div id="swing-meter" data-swing="0">
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-         </div>
-       </div>
-       <div id="shortcuts-box">
-         <ul>
-           <li>Holding a number 1-4 and clicking a cell jumps to a particular velocity.</li>
-           <li>Holding shift and hovering over cells will delete them.</li>
-           <li>Holding shift &amp; then a number 1-4 and hovering over cells with set them to that velocity.</li>
-           <li>Hit the space bar to restart the machine.</li>
-           <li>Hit 'r' over and over again to get more slapback reverb. (Shift+'r' to get less.)</li>
-           <li>Hit 'v' over and over again to get more volume. (Shift+'v' to get less.)</li>
-         </ul>
-       </div>
+   <div id="funklet-bar">
+   	 <div id="logos">
+   	 	<a href="/" class="home"><img src="/images/funklet1.png"/></a>
+     	<a href="http://maestro.funklet.com" class="alternate-home"><img src="/images/maestro-funklet.png"/></a>
+   	 </div>
+     <div id="top-links">
+       <a href="/about.html">About</a> | <a href="http://machine.funklet.com/funklet.html">Blank</a>
+       
      </div>
    </div>
-   </div> <!--end of hover trigger -->
-   <div id="cover">Click anywhere to load the Funklet Machine</div>
+   <div id="image-container">
+	<div id="image-container-width">
+		<div id="image" style="background-image:url(/images/bragg.jpg);"></div>
+	</div>
+</div>
+<div id="header">
+  <div id="info">
+    <h1 id="name"><span>George Bragg</span></h1>
+    <div id="song">
+      <h2><span>It’s A New Day</span></h2>
+      <h3><span>Skull Snaps</span></h3>
+      <h3><span>1973</span></h3>
+    </div>
   </div>
-  <script src="/script/jquery.js"></script>
-  <script src="/script/es5-shim.js"></script>
-  <script src="/script/functions.js?v=2"></script>
-  <script src="/script/funklet.js?v=2"></script>
+</div>
+<div class="container">
+  <div class="funklet-container">
+    <iframe src="http://machine.funklet.com/funklet.html?vals=30302040403020403030204040302040;00004000000040000000400000004000;40400000004300034040000000340002&mods=&b=96&s=3&jd=0,-3.469446951953614e-18,0&r=0.967741935483871,1.0344827586206897,1.1111111111111112&a=000"></iframe>
+  </div>
+</div>
+<div class="hr"></div>
+<div id="text">
+  <p><em>Drum break: when the drummer plays the groove alone.  Important for sampling.</em> </p>
+<p>Two people that don&#8217;t get many props for famous drum breaks: <strong>the drummer and the engineer.</strong>  The two people responsible for famous drum breaks: <strong>the drummer and the engineer.</strong></p>
+<p>I love Crate Kings&#8217; <a href="http://www.cratekings.com/300-classic-hip-hop-drum-breaks-samples-and-loops/">300 Classic Hip Hop Drum Breaks</a>.</p>
+<p>As a starting point.</p>
+<p>A good break is the marriage between funk and tones.  It&#8217;s a jockey—horse relationship.  I don&#8217;t know who is who.</p>
+<p>Ed Stasium engineered this one.  He was an intern at the time. &#8220;I think I did a pretty good job for not knowing shit.&#8221;<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a></p>
+<p>The vicious compression is hip-hop pre-hip-hop. Listen to how the hi-hat jumps out when played alone.  It&#8217;s sounds like Bragg is playing that way, but the compressor is squashing the hat down when he hits the kick or snare.  Now drummers imitate that sound live.</p>
+<p>It is mind spinning how many times this break has been sampled: <a href="http://www.whosampled.com/sampled/Skull%20Snaps/">WhoSampled.com/SkullSnaps</a>.<br />
+<br />
+<p><em>Press &#8220;r&#8221; a few times.  Maybe slow it down:</em> <a href="http://machine.funklet.com/funklet.html?vals=30302040403020403030204040302040;00004000000040000000400000004000;40400000004300034040000000340002&mods=&b=85&s=5&jd=0,0.009999999999999997,0&r=0.5084745762711864,0.5263157894736842,0.7692307692307693&a=000">all day</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1"><p><a href="http://www.musthear.com/music/reviews/skull-snaps/skull-snaps/">Skull Snaps — John Ballon</a><a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+</ol>
+</div>
+  <div id="social">
+  	<div>
+  	  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Funklet beat: ">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+  	<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+  </div>
+</div>
+<div id="image-fullwidth">
+  <div id="image-cover">
+  	<div id="image-flare"></div>
+  </div>
+  <h4>George Bragg</h4>
+</div>
+
+<script type="text/javascript" src="/script/post.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
  </body>
 </html>
