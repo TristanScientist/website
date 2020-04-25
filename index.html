@@ -3,42 +3,19 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Blog Post</title>
+    <title>Tristan</title>
     <link rel="stylesheet" href="vulf-mono.css">
     <link rel="stylesheet" href="vulf-sans.css">
     <link rel="stylesheet" href="vulf.css">
 </head>
 <body>
 
-<article>
-
-<h1 contenteditable="true" class="title">Tristan Henderson</h1>
-<h2 contenteditable="true" class="author">website sucks</h2>
-<section class="text" contenteditable="true">
+<h1 >Tristan Henderson</h1>
+<h2 >website sucks</h2>
+<section class="text">
     here we are...
 
-
-<script>
-
-    function selectAll(element) {
-      const range = document.createRange();
-      range.selectNodeContents(element);
-      const sel = window.getSelection();
-      sel.removeAllRanges();
-      sel.addRange(range);
-    }
-
-    for (let selector of [".title", ".author", ".text"]) {
-      const element = document.querySelector(selector);
-      element.addEventListener("focus", e => {
-        selectAll(e.target);
-      });
-
-      // element.addEventListener("mouseup", e => (e.preventDefault, false));
-    }
-</script>
 </section>
-</article>
 
 </body>
 </html>
