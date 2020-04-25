@@ -145,3 +145,9 @@
     font-style: italic;
     src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Sans/VulfSansDemo-LightItalic.otf);
 }
+
+h1 {
+font-family: 'VulfSansDemo-Regular', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
