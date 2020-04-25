@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    background: #9FDACB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 30px;
+    max-width: 42rem;
+    margin-right: 100px;
+    color: #223B2D;
+}
+
+h2 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #446151;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+h2:before {
+    content: '–';
+    padding-right: 10px;
+}
+
+.text {
+    font-family: "Vulf Sans", sans-serif;
+    color: hsla(147, 18%, 20%, 1);
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+article {
+    max-width: 700px;
+    margin: 0 50px;
+}
+
+@media screen and (min-width: 800px) {
+    .text {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 13px;
+    }
+}
