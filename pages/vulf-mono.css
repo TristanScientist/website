@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 900;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-Black.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 900;
+    font-style: italic;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-BlackItalic.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 700;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-Bold.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 700;
+    font-style: italic;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 400;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-Regular.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 400;
+    font-style: italic;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-Italic.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 300;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-Light.otf);
+}
+
+@font-face {
+    font-family: "Vulf Mono";
+    font-weight: 300;
+    font-style: italic;
+    src: url(https://static-electricity.s3.eu-west-2.amazonaws.com/fonts/Vulf+Mono/VulfMonoDemo-LightItalic.otf);
+}
