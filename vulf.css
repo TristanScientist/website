@@ -3,23 +3,14 @@
     outline: 0;
 }
 
-body {
-    background: #ffffff;
-    display: ;
-    align-items: left;
-    overflow-x: hidden;
-}
-
 h1 {
     font-family: "Vulf Mono", monospace;
     font-size: 4rem;
     font-style: italic;
     font-weight: 900;
-    margin-top: 30px;
-    max-width: 42rem;
-    margin-left: 30px
-    margin-right: 100px;
-    color: #FEA648;
+    margin-top: -10px;
+    max-width: 0rem;
+    margin-left: 0px
 }
 
 h2 {
@@ -29,13 +20,19 @@ h2 {
     font-weight: 400;
     letter-spacing: -3px;
     color: #859A5C;
-    margin-top: 14px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-h2:before {
-    content: '';
-    padding-right: 10px;
+h4 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #859A5C;
+    margin-top: -30px;
+    margin-bottom: -40px;
 }
 
 .text {
@@ -51,28 +48,4 @@ h3 {
     font-size: 2.5rem;
     font-style: bold;
     font-weight: 500;
-    margin-top: 30px;
-    max-width: 42rem
-    letter-spacing: -3px;
-    margin-left: 30px
-    margin-right: 100px;
-    color: #FEA648;
-}
-
-article {
-    max-width: 700px;
-    margin: 0 50px;
-}
-
-@media screen and (min-width: 800px) {
-    .text {
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    html {
-        font-size: 13px;
-    }
-
 }
