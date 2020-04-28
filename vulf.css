@@ -9,7 +9,7 @@ h1 {
     font-style: italic;
     font-weight: 900;
     margin-top: 10px;
-    max-width: 0rem;
+    max-width: 0px;
     margin-left: 0px
 }
 
@@ -31,7 +31,7 @@ h4 {
     font-weight: 700;
     letter-spacing: 1px;
     color: #859A5C;
-    margin-top: -175px;
+    margin-top: -170px;
     margin-bottom: 130px;
     margin-left: 8px;
 }
