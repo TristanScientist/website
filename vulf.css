@@ -75,3 +75,14 @@ h6 {
     margin-left: 8px;
     margin-right: 8px;
 }
+
+hgroup {
+    font-family: "Vulf Mono", monospace;
+    color: rgba(56, 78, 59, 0.986);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
