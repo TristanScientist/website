@@ -4,7 +4,7 @@ N;LANGUAGE=en-us:Henderson;Tristan
 FN:Tristan Henderson
 TITLE:Hunter of Protists
 ADR;WORK;PREF:;;;USA, Earth, the Universe
-LABEL;WORK;PREF:
+LABEL;WORK;PREF:USA, Earth, the Universe
 X-MS-OL-DEFAULT-POSTAL-ADDRESS:2
 URL;WORK:https://locate.tristanhenderson.info
 EMAIL;PREF;INTERNET:tristan@tristanhenderson.info
@@ -1278,5 +1278,5 @@ PHOTO;TYPE=JPEG;ENCODING=BASE64:
  bTbORjI0agscnmrGpMxtZGLEktJk+vzr/jWlCieSnyj7o7e1UtEbxm47H//Z
 
 X-MS-OL-DESIGN;CHARSET=utf-8:<card xmlns="http://schemas.microsoft.com/office/outlook/12/electronicbusinesscards" ver="1.0" layout="left" bgcolor="ffffff"><img xmlns="" align="tleft" area="32" use="photo"/><fld xmlns="" prop="name" align="left" dir="ltr" style="b" color="000000" size="10"/><fld xmlns="" prop="title" align="left" dir="ltr" color="000000" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="email" align="left" dir="ltr" color="d48d2a" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="addrwork" align="left" dir="ltr" color="000000" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="webwork" align="left" dir="ltr" color="000000" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/><fld xmlns="" prop="blank" size="8"/></card>
-REV:20200504T165826Z
+REV:20200504T172017Z
 END:VCARD
