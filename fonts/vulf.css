@@ -10,7 +10,7 @@ h1 {
     font-size: 3rem;
     font-style: italic;
     font-weight: 900;
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 0px;
     margin-left: 0px
 }
@@ -22,7 +22,7 @@ h2 {
     font-weight: 400;
     letter-spacing: -3px;
     color: #859A5C;
-    margin-top: 0px;
+    margin-top: px;
     margin-bottom: 0px;
     margin-left: 8px;
 }
@@ -34,7 +34,7 @@ h4 {
     font-weight: 700;
     letter-spacing: 1px;
     color: #859A5C;
-    margin-top: -165px;
+    margin-top: -145px;
     max-width: -1px;
     margin-bottom: 130px;
     line-height: 0;
