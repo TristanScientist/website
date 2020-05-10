@@ -6,7 +6,7 @@
   <link rel="shortcut" href="./favicons/vfavicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
-  <body onload="typeWriter();">
+  <body onload="THwrite();">
 </head>
 <body bgcolor=black>
 </body>
@@ -23,7 +23,7 @@
 
 <h6>
   <font color=#AAE8FE>
-  <A id="demo"></A>
+  <A id="sure"></A>
   </br>
   </font>
     <A HREF="../vault" style="text-decoration:none;">
@@ -51,14 +51,13 @@
 <script>
   var i = 0;
 var txt = 'Are you sure you want to enter the vault?'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var speed = 20; /* The speed/duration of the effect in milliseconds */
 
-function typeWriter() {
+function THwrite() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("sure").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+    setTimeout(THwrite, speed);
   }
-  window.onload = typeWriter;
 }
 </script>
