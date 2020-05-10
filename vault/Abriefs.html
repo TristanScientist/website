@@ -42,7 +42,7 @@
 <link rel="stylesheet" href="../fonts/vulf-sans.css">
 <link rel="stylesheet" href="./vaultfonts.css">
 <link rel="stylesheet" href="../pmedia.css">
-<link rel="stylesheet" href="./modals.css">
+<link rel="stylesheet" href="./vault.css">
 <div id=menu align=left><img src="../TH.gif" width="auto" height="200">
     <h4>
         <A HREF="../vault" style="text-decoration:none;">
@@ -59,7 +59,8 @@
         <table border="0">
             <tr>
                 <td>20.01.04</td>
-                <td><A HREF="./audio/New Audio Logs to Sort/Insights and Ideas/200104 - frameworks 11.m4a">frameworks 11</a></td>
+                <td><A HREF="./audio/New Audio Logs to Sort/Insights and Ideas/200104 - frameworks 11.m4a">frameworks
+                        11</a></td>
             </tr>
             <tr>
                 <td>3.18.19</td>
@@ -69,44 +70,32 @@
                 <td>3.18.19</td>
                 <td><A HREF="whoknows.com">table style?</a></td>
             </tr>
-            <tr>
-                <td>3.18.19</td>
-                <td><A HREF="whoknows.com">table style?</a></td>
-            </tr>
-            <tr>
-                <td>3.18.19</td>
-                <td><A HREF="whoknows.com">table style?</a></td>
-            </tr>
-            <tr>
-                <td>3.18.19</td>
-                <td>  <!-- Trigger/Open The Modal -->
-                    <A id="myBtn">new thing</A>
-                  
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                    
-                      <!-- Modal content -->
-                      <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>new</p>
-                      </div>
-                    </div></td>
-            </tr>
-            <tr>
-                <td>3.18.19</td>
-                <td>  <!-- Trigger/Open The Modal -->
-                    <A id="myBtn">test modal</A>
-                  
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                    
-                      <!-- Modal content -->
-                      <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>new</p>
-                      </div>
-                    </div></td>
-            </tr>
+
+            <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+    <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+    <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv cars">BMW</div>
+    <div class="filterDiv colors fruits">Orange</div>
+    <div class="filterDiv cars">Volvo</div>
+    <div class="filterDiv colors">Red</div>
+    <div class="filterDiv cars animals">Mustang</div>
+    <div class="filterDiv colors">Blue</div>
+    <div class="filterDiv animals">Cat</div>
+    <div class="filterDiv animals">Dog</div>
+    <div class="filterDiv fruits">Melon</div>
+    <div class="filterDiv fruits animals">Kiwi</div>
+    <div class="filterDiv fruits">Banana</div>
+    <div class="filterDiv fruits">Lemon</div>
+    <div class="filterDiv animals">Cow</div>
+  </div>
 
     </h6>
 
@@ -120,31 +109,53 @@
         gtag('config', 'UA-165122607-1');
     </script>
 
+
 <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on the button, open the modal
-    btn.onclick = function() {
-      modal.style.display = "block";
+    filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
     }
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    
-    </script>
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
