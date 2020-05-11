@@ -58,14 +58,14 @@
   .btn {
     border: none;
     outline: none;
-    padding: 2px 4px;
+    padding: 0px 3px;
     background-color: #f1f1f1;
     cursor: pointer;
   }
   
   /* Add a light grey background on mouse-over */
   .btn:hover {
-    background-color: #ddd;
+    background-color: rgb(253, 189, 106);
   }
   
   /* Add a dark background to the active button */
