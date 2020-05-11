@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<meta charset="UTF-8">
+<link rel="icon" href="/favicons/gfavicon.png">
+<link rel="shortcut" href="/favicons/gfavicon.png">
+<title>Microscopy</title>
+<link rel="stylesheet" media="screen and (max-device-width: 800px)" />
+<media="screen and (max-device-width: 800px) />
+<link rel="stylesheet" href="/fonts/vulf-mono.css">
+<link rel="stylesheet" href="/fonts/vulf-sans.css">
+<link rel="stylesheet" href="/fonts/vulf.css">
+<link rel="stylesheet" href="/pmedia.css">
+<link rel="stylesheet" href="../lightbox.css">
+<h2>
+    <A HREF="../microscopy" style="text-decoration:none;">
+        <font size=5>
+            <font color=343D42>← back</font>
+    </A>
+</h2>
+<P>
+    <h6>
+        <A HREF="./microscopy/pyrocystis" style="text-decoration:none;"><font color=#B66464>
+          <font size=3.5><b>Bio<font color=#52FEF5>luminescent <font color=#B66464>Plankton</b></font></A>
+        </br><P>
+          <!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src="./biolum/Pyrocystis 1.png" width="250x" height="auto" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./biolum/Pyrocystis 2.png" width="250x" height="auto" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./biolum/Pyrocystis 3.png" width="250x" height="auto" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="./biolum/Pyrocystis 1.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="./biolum/Pyrocystis 2.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="./biolum/Pyrocystis 3.png" style="width:100%">
+      </div>
+  
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+
+  </div>
+
+
+  <script>
+    // Open the Modal
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+    
+    // Close the Modal
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+</html>
