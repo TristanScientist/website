@@ -22,8 +22,7 @@
 </br></br></br></br></br>
 
 <h6>
-  <font color=#AAE8FE>
-  <A id="sure"></A>
+  <font color=#AAE8FE>Are you sure you want to enter the vault?
   </br>
   </font>
     <A HREF="../vault" style="text-decoration:none;">
@@ -48,16 +47,4 @@
   gtag('config', 'UA-165122607-1');
 </script>
 
-<script>
-  var i = 0;
-var txt = 'Are you sure you want to enter the vault?'; /* The text */
-var speed = 20; /* The speed/duration of the effect in milliseconds */
 
-function THwrite() {
-  if (i < txt.length) {
-    document.getElementById("sure").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(THwrite, speed);
-  }
-}
-</script>
