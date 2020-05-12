@@ -1,0 +1,93 @@
+these are legal fonts i swear
+
+* {
+    margin: 0;
+    outline: 0;
+}
+
+h1 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 20px;
+    max-width: 0px;
+    margin-left: 0px
+}
+
+h2 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #859A5C;
+    margin-top: px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+}
+
+h4 {
+    font-family: "Vulf Sans", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #859A5C;
+    margin-top: -200px;
+    max-width: -1px;
+    margin-bottom: -10px;
+    line-height: 0;
+    margin-left: 8px;
+}
+h5 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #859A5C;
+    line-height: 0;
+    margin-top: 53px;
+    margin-bottom: -25px;
+    
+    margin-left: 280px;
+}
+
+.text {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgb(34, 48, 40);
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgba(56, 78, 59, 0.986);
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: 8px;
+}
+
+h6 {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgba(56, 78, 68, 0.986);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+hgroup {
+    font-family: "Vulf Mono", monospace;
+    color: rgba(56, 78, 59, 0.986);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
