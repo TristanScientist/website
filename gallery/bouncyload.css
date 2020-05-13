@@ -26,9 +26,9 @@
   }
   
   .pace .pace-activity {
-    width: 140px;
-    height: 140px;
-    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     background: #B66464;
     position: absolute;
     top: 0;
