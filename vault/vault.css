@@ -124,11 +124,7 @@
   }
 
   // special button //
-  @font-face {
-    font-family: "bw";
-    src: url("https://robindelaporte.fr/codepen/play/BwModelicaSS01-ExtraBold.woff") format("woff");
-  }
-  
+
   html {
     font-size: 62.5%;
   }
@@ -154,7 +150,7 @@
     span {
       position: relative;
       z-index: 6;
-      font-family: "bw";
+      font-family: "Vulf Mono", monospace;
       text-decoration: none;
       position: absolute;
       top: 50%;
@@ -166,7 +162,7 @@
     }
   
     a {
-      font-family: "bw";
+      font-family: "Vulf Mono", monospace;
       text-decoration: none;
       position: absolute;
       top: 50%;
