@@ -81,3 +81,45 @@
     color: white;
   }
   
+
+
+    /* Circle typer */
+  body {
+    margin: 0;
+  }
+  
+  .holder {
+    height: 100%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .text {
+    font-family: "Vulf Mono", monospace;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FEA648;
+  }
+  
+  span {
+    margin-bottom: 10px;
+    animation: 0.8s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from,
+    to {
+      color: transparent;
+    }
+    50% {
+      color:rgba(254, 166, 72, 0.185);
+    }
+  }
+  
