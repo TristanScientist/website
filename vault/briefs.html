@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<!-- Hey stop reading my terrible html... very rude of you-->
+<!-- Hello there! Welcome to my terrible conglomerate of coding. 
+    Enjoy your stay and please take whatever you want. This is the internet afterall. 
+    Alright, bye now! Also can I just say you are looking fantastic today? 
+    If you need anything from me, shoot me an email. I don't mind. 
+                                                                            -Tristan -->
 <style>
     a:link {
         color: rgb(255, 193, 58);
@@ -56,7 +60,7 @@
             <font size=4><i>Audio Briefs</i></font>
     </h3>
     <h6>
-        <!-- filters -->
+        <!-- these are the filter button filters -->
         <div id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')"> All</button>
             <button class="btn" onclick="filterSelection('insight')">Insights</button>
@@ -65,7 +69,7 @@
             <button class="btn" onclick="filterSelection('music')">Music</button>
             <button class="btn" onclick="filterSelection('random')">?</button>
         </div>
-        <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+        <!-- Load 1 (Enter new entries above this-->
         </br>
         <div class="container">
             <div class="filterDiv insight">
@@ -933,7 +937,7 @@
 </br></br></br></br></br></br></br></br>
 welcome to the bottom
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- This is for tracking you ;) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165122607-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -950,14 +954,14 @@ welcome to the bottom
             var x, i;
             x = document.getElementsByClassName("filterDiv");
             if (c == "all") c = "";
-            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            
             for (i = 0; i < x.length; i++) {
                 w3RemoveClass(x[i], "show");
                 if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
             }
         }
 
-        // Show filtered elements
+        
         function w3AddClass(element, name) {
             var i, arr1, arr2;
             arr1 = element.className.split(" ");
