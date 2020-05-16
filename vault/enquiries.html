@@ -1,0 +1,130 @@
+you have a question? I may answer...
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>questions</title>
+<style>
+dco {color:#E9EC54;}
+rco {color:#ff6600;}
+qco {color:#B387FF;}
+green {color: #00cc00;}
+blue {color: #5555ff;}
+white {color: #000000;}
+lightred {color: #ff6666;}
+strike {text-decoration:line-through;}
+red {color: #ff4444;}
+yellow {color: #ffff00;}
+lightgreen {color: #b3ffb3;}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+quotequestion{
+margin:20px;
+padding:5px;
+display:block;
+background-color:#444;
+border: 1px solid black;
+}
+quotedco{color:#e9ec54}
+quoteqco{color:#b387ff}
+quoteaco{color:#ffffff; font-weight:normal;}
+
+
+</style>	
+</head>
+<head><link rel="stylesheet" href="main.css" media="screen" /> <link rel="stylesheet" href="note.css" media="screen and (max-device-width: 800px)" />
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,"/>
+<body>
+<body style="word-wrap: break-word;">
+</body>
+<body bgcolor=#323232>
+</body>
+<body text=white>
+</body>
+<body link="#00FF00">
+</body>
+<body vlink=#67FF79>
+</body>
+<span class="alignright"><form action="random.php">
+        
+        
+<input type="submit" value="i'm feeling randy" style="
+	background-color:black;
+	color: red;
+	font-size:8px;
+	width:85px;
+">  </form></span>
+<h1>ue<font color=#00EE3B>q</font>stions</h1>
+
+
+        
+         
+      <script type="text/javascript">
+          
+// after this many chars, enter will work again
+    var CHARACTERS_TO_DISALLOW_ENTER = 100;
+          
+    var question_submitted_already = false;     
+    function submit_question() {
+        if (question_submitted_already == false) 
+        {
+            question_submitted_already = true;
+            document.forms["ask"].submit(); 
+        }
+    }
+        
+        
+    function on_press(e) {
+        var code = (e.keyCode ? e.keyCode : e.which);
+        
+        // check for orientation field on mobile 
+         if (!(typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)) {
+            var question = document.getElementsByName("question")[0].value;
+             
+            // if u press enter and no shift, send q
+            if (code == 13 && !e.shiftKey && question.length < CHARACTERS_TO_DISALLOW_ENTER) { 
+        
+                submit_question(); 
+                e.preventDefault();
+
+            }
+         }
+    }
+	
+          //does not refresh the page!!!! on safari back or reload of page make the question not submitted
+         window.addEventListener('pageshow', function(e) {
+            question_submitted_already = false;
+             document.getElementsByName("question")[0].value = "";
+        });
+    </script>
+    
+    
+<form action="questions.php" method="post" name="ask">
+
+
+
+
+ask a question</br>
+
+<textarea rows="7" cols="47" maxlength="10000" name="question"onkeypress="on_press(event, this)"></textarea>
+
+<!-- 
+
+
+</qco></h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subanswer<h3> <qco> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</qco></h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subanswerwithmoreinline<h3 style="display: inline;"> <qco> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<h3 style="display: inline;">
+
+-->
+
+</br>
+<input type="hidden" name="location" value="question" />
+<input type="button" onclick="submit_question();" value="ASK"/>  </form>
+</br><!--~~~~-->
