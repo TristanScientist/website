@@ -73,6 +73,7 @@
   /* Add a light grey background on mouse-over */
   .btn:hover {
     background-color: rgb(253, 189, 106);
+    color: white;
   }
   
   /* Add a dark background to the active button */
