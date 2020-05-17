@@ -49,10 +49,46 @@
 <link rel="stylesheet" href="./vault.css">
 <h2>
     <A HREF="/vault/enquiries" style="text-decoration:none;">
-      <font size=5>
-        <font color=white>← back</font>
+        <font size=5>
+            <font color=white>← back</font>
     </A>
-  </h2>
+</h2>
 <h6>
-  <font color=#1860CB>And so it was. An equiry sent by carrier pigeon directly to the future answerer of that enquiry. </font>
+    <font color=#1860CB>And so it was. An equiry sent by carrier pigeon directly to the future answerer of that enquiry.
+    </font>
 </h6>
+
+
+
+
+<input type="text" size="1" id="timer" name="redirect" value="5">
+
+
+
+<script>
+
+var targetURL = "http://www.tristanhenderson.info/vault/enquiries"
+
+    var currentsecond = 5;
+    function countredirect() {
+        if (currentsecond != 1) {
+            currentsecond -= 1
+            document.getElementById('timer').value = currentsecond;
+        }
+        else {
+            window.location = targetURL;
+            return
+        }
+        setTimeout("countredirect()", 1000)
+    }
+
+    countredirect();
+
+</script>
+</p>
+</body>
+
+</html>
+</body>
+
+</html>
