@@ -1,8 +1,8 @@
 body {
-	background: linear-gradient(-45deg, #C92526, #E83D33, #FEA648, #67B6B0, #B66464, #895F8D, #F0E464);
+	background: linear-gradient(-45deg, rgba(28, 28, 28, 0), rgb(0, 0, 0), #FEA648, #67B6B0, #B66464, #895F8D, rgb(0, 0, 0));
 	background-size: 500% 500%;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
+	-webkit-animation: gradient 30s ease infinite;
+	        animation: gradient 30s ease infinite;
 }
 
 @-webkit-keyframes gradient {
