@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, rgba(28, 28, 28, 0), rgb(0, 0, 0), #FEA648, #67B6B0, #B66464, #895F8D, rgb(0, 0, 0));
+	background: linear-gradient(-45deg, rgba(28, 28, 28, 0), rgb(0, 0, 0), #67B6B0, #B66464, #895F8D, #FEA648, rgb(0, 0, 0));
 	background-size: 500% 500%;
 	-webkit-animation: gradient 30s ease infinite;
 	        animation: gradient 30s ease infinite;
@@ -10,7 +10,7 @@ body {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 200% 100%;
 	}
 	100% {
 		background-position: 0% 50%;
@@ -22,7 +22,7 @@ body {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 500% 10000%;
 	}
 	100% {
 		background-position: 0% 50%;
