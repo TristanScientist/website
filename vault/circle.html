@@ -31,6 +31,34 @@
 </style>
 
 <head>
+  <!-- typer -->
+<body>
+  <audio src="https://imsolitude.github.io/typewriter/keystroke.mp3" type="audio/mp3" id="myAudio"></audio>
+  <div class="holder">
+    <div class="text" id="text"></div><span class="text">|</span>
+  </div>
+</body>
+
+<script>
+    let sound = document.getElementById("myAudio");
+sound.volume = 0.3;
+
+let div = document.getElementById("text");
+
+const letters = ["C", "i", "r", "c", "l", "e"];
+
+setTimeout(
+() =>
+  letters.forEach((letter, i) => {
+    setTimeout(() => {
+      div.innerHTML += letter;
+      sound.play();
+    }, i * 500);
+  }),
+2800
+);
+</script>
+<!-- typer -->
     <title>Circle</title>
     <link rel="icon" href="../favicons/vfavicon.png">
     <link rel="shortcut" href="../favicons/vfavicon.png">
@@ -50,34 +78,7 @@
 
 
 
-<!-- typer -->
-<body>
-    <audio src="https://imsolitude.github.io/typewriter/keystroke.mp3" type="audio/mp3" id="myAudio"></audio>
-    <div class="holder">
-      <div class="text" id="text"></div><span class="text">|</span>
-    </div>
-  </body>
 
-  <script>
-      let sound = document.getElementById("myAudio");
-sound.volume = 0.3;
-
-let div = document.getElementById("text");
-
-const letters = ["C", "i", "r", "c", "l", "e"];
-
-setTimeout(
-  () =>
-    letters.forEach((letter, i) => {
-      setTimeout(() => {
-        div.innerHTML += letter;
-        sound.play();
-      }, i * 500);
-    }),
-  2800
-);
-</script>
-<!-- typer -->
 <h2 align=center>
 <marquee behavior="alternate" scrollamount="5"><A HREF="../vault/circle/travelfrom" style="text-decoration:none;">
     <font size=5>
