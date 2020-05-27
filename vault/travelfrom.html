@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- These are pages for people. If you want one, email me.
+                                                                            -Tristan -->
+
+<head>
+    <title>traveling...</title>
+    <link rel="icon" href="/favicons/vfavicon.png">
+    <link rel="shortcut" href="/favicons/vfavicon.png">
+</head>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/fonts/vulf-mono.css">
+<link rel="stylesheet" href="/fonts/vulf-sans.css">
+<link rel="stylesheet" href="/gallery/gallfont.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <canvas id=c width=1920 height=1080>
+
+        <script>
+            // Dwitter Shim by Frank Force 2020
+            // License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+            function u(t) { // dwitter code goes here
+
+                // https://www.dwitter.net/d/18610 - Blood Cavern
+                with(x)for(i=-6*t%1;i++<66;fill())for(beginPath(fillStyle=R(8*i,4*i),j=36);--j;arc(960,h+h*S(3*t)**2/i,h/i*(9+C(~~i+6*t^j)),b=9+j/9,b))h=777
+
+            }
+
+            let time = 0;
+            let frame = 0;
+            let FPS = 5;
+            let x = c.getContext('2d');
+            let S = Math.sin;
+            let C = Math.cos;
+            let T = Math.tan;
+            let R = (r, g, b, a = 1) => `rgba(${r | 0},${g | 0},${b | 0},${a})`;
+
+            let loop = (frameTime) => {
+                requestAnimationFrame(loop);
+
+                // update time
+                time = frame++ / FPS;
+                u(time);
+
+                {
+                    // fill window
+                    const aspect = c.width / c.height;
+                    if (aspect > innerWidth / innerHeight) {
+                        c.style.height = '100%';
+                        c.style.width = '';
+                    }
+                    else {
+                        c.style.width = '100%';
+                        c.style.height = '';
+                    }
+                }
+            }
+
+            loop();
+        </script>
+
+        <style>
+            body {
+                overflow: hidden;
+            }
+
+            canvas {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+
+
+        <input type="text" size="1" id="timer" name="redirect" value="5">
+
+
+
+        <script>
+
+            var targetURL = "http://www.tristanhenderson.info/"
+
+            var currentsecond = 5;
+            function countredirect() {
+                if (currentsecond != 1) {
+                    currentsecond -= 1
+                    document.getElementById('timer').value = currentsecond;
+                }
+                else {
+                    window.location = targetURL;
+                    return
+                }
+                setTimeout("countredirect()", 1000)
+            }
+
+            countredirect();
+
+        </script>
