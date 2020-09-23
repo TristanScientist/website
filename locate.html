@@ -57,10 +57,9 @@
 </h2>
 </br></br></br>
 <h6> 
-  <section class="buttons">
-    <div class="container">
+      <div class="mydiv"> <div class="mydiv2">
 <A HREF="./" style="text-decoration:none;" >
-    <font color=#303030><font size=4><b><div>⇜ Enter Website</b></div></font></A>
+    <font color=#303030><font size=4><b>⇜ Enter Website</b></font></A></div>
 </h6>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,5 +72,230 @@
   gtag('config', 'UA-165122607-1');
 </script>
 
-<div>hover over me</div>
+<style>
+  .mydiv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 80px;
+      height: 65px;
+      background: white;
+      border-radius: 10px;
+      transition: 1s box-shadow;
+    }
+    
+  .mydiv:hover {
+      box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+    }
+    
+  .mydiv:hover::before, .mydiv:hover::after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 65px;
+      background: #67B6B0;
+      border-radius: 10px;
+      z-index: -1;
+      animation: 3s clockwise infinite;
+    }
+    
+  .mydiv:hover:after {
+      background: #B66464;
+      animation: 5s counterclockwise infinite;
+    }
+    
+    @keyframes clockwise {
+      0% {
+        top: -5px;
+        left: 0;
+      }
+      12% {
+        top: -2px;
+        left: 2px;
+      }
+      25% {
+        top: 0;
+        left: 5px;    
+      }
+      37% {
+        top: 2px;
+        left: 2px;
+      }
+      50% {
+        top: 5px;
+        left: 0;    
+      }
+      62% {
+        top: 2px;
+        left: -2px;
+      }
+      75% {
+        top: 0;
+        left: -5px;
+      }
+      87% {
+        top: -2px;
+        left: -2px;
+      }
+      100% {
+        top: -5px;
+        left: 0;    
+      }
+    }
+    
+    @keyframes counterclockwise {
+      0% {
+        top: -5px;
+        right: 0;
+      }
+      12% {
+        top: -2px;
+        right: 2px;
+      }
+      25% {
+        top: 0;
+        right: 5px;    
+      }
+      37% {
+        top: 2px;
+        right: 2px;
+      }
+      50% {
+        top: 5px;
+        right: 0;    
+      }
+      62% {
+        top: 2px;
+        right: -2px;
+      }
+      75% {
+        top: 0;
+        right: -5px;
+      }
+      87% {
+        top: -2px;
+        right: -2px;
+      }
+      100% {
+        top: -5px;
+        right: 0;    
+      }
+    }
+    </style>
+
+    
+<style>
+  .mydiv2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 80px;
+      height: 65px;
+      background: white;
+      border-radius: 10px;
+      transition: 1s box-shadow;
+    }
+    
+  .mydiv2:hover {
+      box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+    }
+    
+  .mydiv2:hover::before, .mydiv2:hover::after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 65px;
+      background: #895F8D;
+      border-radius: 10px;
+      z-index: -1;
+      animation: 1s clockwise infinite;
+    }
+    
+  .mydiv2:hover:after {
+      background: #FEA648;
+      animation: 2s counterclockwise infinite;
+    }
+    
+    @keyframes clockwise {
+      0% {
+        top: -5px;
+        left: 0;
+      }
+      12% {
+        top: -2px;
+        left: 2px;
+      }
+      25% {
+        top: 0;
+        left: 5px;    
+      }
+      37% {
+        top: 2px;
+        left: 2px;
+      }
+      50% {
+        top: 5px;
+        left: 0;    
+      }
+      62% {
+        top: 2px;
+        left: -2px;
+      }
+      75% {
+        top: 0;
+        left: -5px;
+      }
+      87% {
+        top: -2px;
+        left: -2px;
+      }
+      100% {
+        top: -5px;
+        left: 0;    
+      }
+    }
+    
+    @keyframes counterclockwise {
+      0% {
+        top: -5px;
+        right: 0;
+      }
+      12% {
+        top: -2px;
+        right: 2px;
+      }
+      25% {
+        top: 0;
+        right: 5px;    
+      }
+      37% {
+        top: 2px;
+        right: 2px;
+      }
+      50% {
+        top: 5px;
+        right: 0;    
+      }
+      62% {
+        top: 2px;
+        right: -2px;
+      }
+      75% {
+        top: 0;
+        right: -5px;
+      }
+      87% {
+        top: -2px;
+        right: -2px;
+      }
+      100% {
+        top: -5px;
+        right: 0;    
+      }
+    }
+    </style>
   
