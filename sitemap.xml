@@ -4,172 +4,253 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Welcome to a Sitemap of The Tristan Henderson Database -->
 
 
 <url>
   <loc>https://www.tristanhenderson.info/</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/contact</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tristanhenderson.info/me</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/confirm</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/contact/locate</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/me</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/locate</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/vault</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/vault/travelto</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/research/Resume%20-%20Sci10%20-%20S20%20-%20Tristan%20Henderson.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/research/CV%20for%20Science%20(V1)%20-%20Enriched.pdf</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/Scientific%20Repertoire%20-%20Sci04cInt.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/interests</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/archive</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/lichen</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/slime</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/music/portamenti</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/music/old</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/music/doom</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/favicons/tristen</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/vault/status</loc>
-  <lastmod>2020-05-13T01:39:01+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/locate/contact</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/vault/briefs</loc>
-  <lastmod>2020-05-13T01:39:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.tristanhenderson.info/vault/worm</loc>
-  <lastmod>2020-05-13T01:39:01+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/initiatives</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/papers/nihms-908525.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/papers/knoll2011.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/papers/annurev.genet.42.110807.091513.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/longway</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/contact.html</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/insects</loc>
-  <lastmod>2020-05-13T01:38:57+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/pyrocystis</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/pigIHC</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/circle/avdang</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/lichen/The%20Lichen%20Composite%20-%20Tristan%20Henderson.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/slime/Colonial%20Discourse%20-%20Tristan%20Henderson.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
   <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/music/portamenti</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/music/doom</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/initiatives/freshmanbiologylectures</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/initiatives/USS</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/circle</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/portamenti/Lost%20in%20the%20Gulf%20of%20Portamenti%20-%20Tristan%20Henderson.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/music/doom/Pragmatic%20Doom%20-%20Tristan%20Henderson.pdf</loc>
-  <lastmod>2020-05-13T01:38:59+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/travelfrom</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/status</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/abriefs</loc>
+  <lastmod>2020-10-20T23:16:02+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/tbriefs</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/enquiries</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/circle/travelto</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/circle/travelfrom</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/vault/circle/sample</loc>
+  <lastmod>2020-10-20T23:16:03+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/fa</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/protistory</loc>
+  <lastmod>2020-10-20T23:16:01+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 
 
