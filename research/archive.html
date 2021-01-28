@@ -26,8 +26,20 @@
 <h6>
   <font color=#67B6B0>
     <font size=3.5><b>Evolution of Multicellularity</b></font> [2020-2021]
-    <img class="img-responsive" src="../research/multiclad.png">
-<h6>
+    
+  </h6>
+  <h6>
+    <font color=#7AD6CF>▷ <i>
+      <font color=#5E707A>Hunted worms in Texas to harvest parasitic unicellular relatives of animals.</i></font>
+    </br> </h6>
+    <h6>
+  <button class="button button1" onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align"
+  style="width:100%" class=".button">
+  <center>Context</center>
+</button>
+
+<div id="Demo1" class="w3-container w3-hide">
+  <img class="img-responsive" src="../research/multiclad.png"></br>
     Rulers of the Earth had many key transitions in their path to taking over the world. Plants, animals, and fungi all
     have these things in common. They rule the world. They all love low volume funk music. And they are multicellular
     (mostly). These behemoths of lifeforms pack cell specialization, where labor is divided and given to cells dedicated
@@ -79,8 +91,8 @@
     ◉<A HREF="../research/papers/annurev.genet.42.110807.091513.pdf" target="_blank">
         <font color=B66464>OoM and early history of the genetic toolkit For animal development</font>
     </A>
-
-</h6> </br></br>
+  
+</h6></div> </br>
 <h6>
   <font color=#67B6B0>
     <font size=3.5><b>Era of Amphioxus</b></font> [2017-2020]
@@ -142,4 +154,44 @@ Here are some things I did:
   gtag('js', new Date());
 
   gtag('config', 'UA-165122607-1');
+</script>
+
+<style>
+  .button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: cell;
+  }
+
+  .button1 {
+    background-color: #54bbbe8f;
+  }
+
+  /* Green */
+  .button2 {
+    background-color: #008CBA;
+  }
+
+  /* Blue */
+
+  .button1:hover {
+    background-color: #ebd34e;
+    color: rgb(0, 0, 0);
+  }
+</style>
+<script>
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
 </script>
