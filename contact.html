@@ -85,15 +85,42 @@
     var this_script = scripts[scripts.length - 1];
     this_script.parentNode.replaceChild(document.createTextNode(phrases[Math.floor(Math.random()*phrases.length)]), this_script);
 </script> </b></a></br>
-please email for any enquiry.</font>
-</br>
-<script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script>
+<!--message-->
+<script type="text/javascript">
+  // List of various messages for some reason
+  var phrases = [
+      'feel free to contact me',
+      'hey you, contact me',
+      'wait, you are here to contact me?',
+      'what a wonderful world it is for you to be here contacting me!',
+      'Kontaktieren Sie mich jetzt Sie cooler Mensch',
+      'contact me, you will',
+      '🦀🦀hell yeah, contact me🦀🦀',
+      'make like an apicomplexan and contact me',
+      '(ง ͡❛ ͜ʖ ͡❛)ง you can do it, contact me',
+      '( ͡°( ͡° ͜ʖ ͡°( ͠👁 ͜ʖ͠👁 ) ͡° ͜ʖ ͡°) ͡°), we see you are contacting me...',
+      'click that button to contact me',
+      'what? I am not professional enough? contact me anyways',
+      'oh hi there. you can contact me now',
+  ];
+
+  var scripts = document.getElementsByTagName('script');
+  var this_script = scripts[scripts.length - 1];
+  this_script.parentNode.replaceChild(document.createTextNode(phrases[Math.floor(Math.random()*phrases.length)]), this_script);
+</script> 
+</br></font>
+</h3>
+
+<!--Contact Expander Button-->
+<h6>
+  <button class="button button1" onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align"
+  style="width:53%" class=".button">
+  <center>Contact a Tristan</center>
+</button>
+<div id="Demo1" class="w3-container w3-hide">
 </br>
 tristan@protist.info <A HREF="mailto:tristan@protist.info?subject=Enquiry for Tristan" style="text-decoration:none;" ><font color=#FEA648 >[Link]</font></A>
-</br>
-</br>
-</h3>
-<h6>
+</br></br>
   <i>Or you can send me a message using these fancy boxes</i>
 </br>
 <form type="form" action="https://formsubmit.co/9ce23e241f5f475413b0fef556c8bf3b" method="post" name="ask">
@@ -101,18 +128,17 @@ tristan@protist.info <A HREF="mailto:tristan@protist.info?subject=Enquiry for Tr
   <textarea rows="6" cols="41" maxlength="10000" name="message" placeholder="Message"></textarea>
   <input type="hidden" name="_next" value="https://www.tristanhenderson.info/contact/sent">
   <input type="hidden" name="_subject" value="Someone has contacted you from your website!"></br>
-  <input type="text" name="_honey" placeholder="Fill this box if robot" style="display:true">
+  <input type="text" name="_honey" placeholder="Fill this box if robot" style="display:none">
   <input rows="1" cols="41" type="hidden" name="_captcha" value="false">
-  </br><br>
+  
   <button class="btn" type="submit" name="submit">send</button>
 </form>
 </h6>
-<h3>
-  <A HREF="./locate" style="text-decoration:none;" ><font size=3><font color=#FEA648>[Locate a Tristan]</font></A>
-</h3>
+</div>
 <h2>
-    <A HREF="../" style="text-decoration:none;" ><font size=5><font color=343D42>← home</font></A>
+    <A HREF="/locate" style="text-decoration:none;" ><font size=5><font color=343D42>← back</font></A>
 </h2>
+
 
 <!-- Yes I'm tracking you, so what? -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165122607-1"></script>
@@ -123,3 +149,46 @@ tristan@protist.info <A HREF="mailto:tristan@protist.info?subject=Enquiry for Tr
 
   gtag('config', 'UA-165122607-1');
 </script>
+
+<script>
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+
+<style>
+  .button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: cell;
+  }
+
+  .button1 {
+    background-color: #f5ae51f3;
+  }
+
+  /* Green */
+  .button2 {
+    background-color: #d5ff61;
+  }
+
+  /* Blue */
+
+  .button1:hover {
+    background-color: #685111;
+    color: rgb(0, 0, 0);
+  }
+</style>
+
+<script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script>
