@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Hello there! Welcome to my terrible conglomerate of coding. 
+    Enjoy your stay and please take whatever you want. This is the internet afterall. 
+    Alright, bye now! Also can I just say you are looking fantastic today? 
+    If you need anything from me, shoot me an email. I don't mind. 
+                                                                            -Tristan -->
+<style>
+    a:link {
+        color: rgb(255, 193, 58);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: rgb(80, 59, 0);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(118, 255, 248);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(255, 109, 109);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+</style>
+
+<head>
+    <title>Sent!</title>
+    <link rel="icon" href="../favicons/vfavicon.png">
+    <link rel="shortcut" href="../favicons/vfavicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+</head>
+
+<body bgcolor=black>
+</body>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../fonts/vulf-mono.css">
+<link rel="stylesheet" href="../fonts/vulf-sans.css">
+<link rel="stylesheet" href="./vaultfonts.css">
+<link rel="stylesheet" href="../ppmedia.css">
+<link rel="stylesheet" href="./vault.css">
+<h2>
+    <A HREF="/vault/enquiries" style="text-decoration:none;">
+        <font size=5>
+            <font color=white>← back</font>
+    </A>
+</h2>
+<h6>
+    <font size="4.5" color=#ABD7F8>And so it was.</br>
+        The message was sent by carrier pigeon directly to Tristan to look at with his eyeballs.
+    </font>
+</h6>
+
+
+
+
+<input type="text" size="1" id="timer" name="redirect" value="10">
+
+
+
+<script>
+
+var targetURL = "http://www.tristanhenderson.info/vault/circle/sample"
+
+    var currentsecond = 10;
+    function countredirect() {
+        if (currentsecond != 1) {
+            currentsecond -= 1
+            document.getElementById('timer').value = currentsecond;
+        }
+        else {
+            window.location = targetURL;
+            return
+        }
+        setTimeout("countredirect()", 1000)
+    }
+
+    countredirect();
+
+</script>
+</p>
+</body>
+
+</html>
+</body>
+
+</html>
