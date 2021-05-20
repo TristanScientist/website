@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Hello there! Welcome to my terrible conglomerate of coding. 
+    Enjoy your stay and please take whatever you want. This is the internet afterall. 
+    Alright, bye now! Also can I just say you are looking fantastic today? 
+    If you need anything from me, shoot me an email. I don't mind.
+                                                                            -Tristan -->
+<html lang="en">
+<title>Education</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<meta charset="UTF-8">
+<link rel="icon" href="/favicons/mfavicon.png">
+<link rel="shortcut" href="/favicons/mfavicon.png">
+<title>Music</title>
+<link rel="stylesheet" media="screen and (max-device-width: 800px)" />
+<media="screen and (max-device-width: 800px) />
+<link rel="stylesheet" href="../fonts/vulf-mono.css">
+<link rel="stylesheet" href="../fonts/vulf-sans.css">
+<link rel="stylesheet" href="../fonts/vulf.css">
+<link rel="stylesheet" href="../pmedia.css">
+<h2>
+    <A HREF="./" style="text-decoration:none;">
+        <font size=5>
+            <font color=black>← back</font>
+    </A>
+</h2>
+<h6>
+    [Under Construction] Welcome to Sci-Tools. The internet is a vast wasteland of links and tubes. I'm a tube-dweller who hoards links to interesting and useful places. This is an eclectic collection of tools I've used and noted over the years. I continuously update this page when I discover tools for the things I do.
+</h6>
+<h6>
+    <font color=#895F8D> ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</font>
+</h6>
+<!-- The grid: three columns -->
+<div class="row">
+    <div class="column" onclick="openTab('b1');" style="background:green;">Taxonomy</div>
+    <div class="column" onclick="openTab('b2');" style="background:blue;">Paleogeography</div>
+    <div class="column" onclick="openTab('b3');" style="background:red;">Earth stuff</div>
+    <div class="column" onclick="openTab('b4');" style="background:rgb(0, 255, 191);">Earth stuff</div>
+    <div class="column" onclick="openTab('b5');" style="background:rgb(190, 245, 38);">Earth stuff</div>
+    <div class="column" onclick="openTab('b6');" style="background:rgb(155, 69, 163);">Earth stuff</div>
+    <div class="column" onclick="openTab('b7');" style="background:rgb(155, 88, 25);">Earth stuff</div>
+  </div>
+  
+  <!-- The expanding grid (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:green">
+    <!-- If you want the ability to close the container, add a close button -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 1</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+  
+  <div id="b2" class="containerTab" style="display:none;background:blue">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 2</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+  
+  <div id="b3" class="containerTab" style="display:none;background:red">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 3</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+
+  <div id="b4" class="containerTab" style="display:none;background:rgb(0, 255, 191)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 3</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+  
+  <div id="b5" class="containerTab" style="display:none;background:rgb(190, 245, 38)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 3</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+  
+  <div id="b6" class="containerTab" style="display:none;background:rgb(155, 69, 163)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 3</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+  
+  <div id="b7" class="containerTab" style="display:none;background:rgb(155, 88, 25)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Box 3</h2>
+    <p>Lorem nice..</p>
+  </div>
+  
+
+
+<!-- Yes I'm tracking you, so what? -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165122607-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165122607-1');
+</script>
+
+<style>
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 10.33%;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+    // Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
