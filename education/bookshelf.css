@@ -1,0 +1,35 @@
+.books {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .books img {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    margin: 0 10px;
+    -moz-transform: perspective(500px) rotateY(22deg);
+    -ms-transform: perspective(500px) rotateY(22deg);
+    -webkit-transform: perspective(500px) rotateY(22deg);
+    transform: perspective(500px) rotateY(22deg);
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: -2px 0 -1px black, -4px 0 -2px black, -6px 0 -3px black, -8px 0 -4px black, -10px 0 -5px black;
+  }
+  .books img:hover {
+    -moz-transform: perspective(500px) rotateY(0deg);
+    -ms-transform: perspective(500px) rotateY(0deg);
+    -webkit-transform: perspective(500px) rotateY(0deg);
+    transform: perspective(500px) rotateY(0deg);
+    box-shadow: none;
+  }
+
+  
+  body {
+    background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood_@2X.png);
+    background-size: 512px;
+    overflow: hidden;
+  }
+  
