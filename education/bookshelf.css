@@ -6,7 +6,7 @@
     display: inline-block;
     position: relative;
     z-index: 1;
-    width: 100px;
+    width: 200px;
     margin: 0 10px;
     -moz-transform: perspective(500px) rotateY(22deg);
     -ms-transform: perspective(500px) rotateY(22deg);
