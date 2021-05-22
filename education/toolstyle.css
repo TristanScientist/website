@@ -1,0 +1,178 @@
+these are legal fonts i swear
+
+* {
+    margin: 0;
+    outline: 0;
+}
+
+h1 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 20px;
+    max-width: 0px;
+    margin-left: 8px
+}
+
+h2 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #859A5C;
+    margin-top: px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    -webkit-column-span: all;
+    column-span: all;
+}
+
+h4 {
+    font-family: "Vulf Sans", monospace;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #859A5C;
+    margin-top: -200px;
+    max-width: -1px;
+    margin-bottom: -10px;
+    line-height: 0;
+    margin-left: 8px;
+}
+h5 {
+    font-family: "Vulf Mono", monospace;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #859A5C;
+    line-height: 0;
+    margin-top: 53px;
+    margin-bottom: -25px;
+    
+    margin-left: 280px;
+}
+
+.text {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgb(34, 48, 40);
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgba(56, 105, 109, 0.986);
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 4;
+    text-align: center;
+
+}
+
+h6 {
+    font-family: "Vulf Sans", sans-serif;
+    color: rgba(95, 134, 117, 0.986);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+hgroup {
+    font-family: "Vulf Mono", monospace;
+    color: rgba(56, 78, 59, 0.986);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* This is for nice tooltips. - Tristan */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0px dotted black; 
+  }
+  
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: rgba(49, 168, 172, 0.301);
+    color: rgb(97, 97, 97);
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+ 
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -120px;
+  
+
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(49, 168, 172, 0.301) transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .button {
+    background-color: #78b0e4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+ 
+    a:link {
+        color: rgb(250, 195, 75);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: rgb(95, 74, 10);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(118, 255, 248);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(255, 109, 109);
+        background-color: transparent;
+        text-decoration: underline;
+    }
