@@ -1,0 +1,28 @@
+.newspaper {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px solid lightblue; /* Firefox */
+  column-rule: 1px solid lightblue;
+}
+body,
+div,
+span,
+td,
+th {
+  font: 0.92em Arial;
+}
+a {
+  display: block;
+  margin-bottom: 0.5em;
+}
+/*
+h4 {
+    -webkit-column-span: all;
+    column-span: all;
+}
+*/
