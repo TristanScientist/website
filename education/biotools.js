@@ -104,6 +104,7 @@ function onDataLoaded(error, linkData) {
       // link[1] is the url
       .html(function(link){ return link[0] }) // cascaded method
       .attr("href",function(link){ return link[1] }) // cascaded method
+      
   ;
   
   /*
@@ -132,3 +133,12 @@ d3.json("urlToData.json", onDataLoaded);
 //       d3.csv(), d3.tsv(), d3.text(), d3.xml(), and d3.html()
 //
 //       custom formats can also be supported using d3.xhr()
+
+var origin=window.location.origin;
+var a=document.getElementsByTagName("a");
+for(var i=0;i<a.length;i++)
+{
+   var link = a[i];
+   if(link.href && link.href.indexOf(origin)!=0)
+    link.setAttribute("target", "_blank");
+}
