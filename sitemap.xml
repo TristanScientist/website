@@ -4,89 +4,248 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Hi there this is my sitemap I guess -->
+<!-- Welcome to my sitemap you stalking wierdo. Just kidding, I think you are the coolest. -->
 
 
 <url>
   <loc>https://www.tristanhenderson.info/</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/contact</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/vault</loc>
-  <lastmod>2021-05-01T15:13:04+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/music</loc>
+  <lastmod>2021-05-24T01:46:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/education</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research</loc>
-  <lastmod>2021-05-01T15:13:02+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/me</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/locate</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/education/biotools</loc>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library</loc>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/Tristan%20Henderson%20-%20CV%20for%20Science%20(V2)%20-%20Enriched.pdf</loc>
-  <lastmod>2021-05-01T15:13:02+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/protists</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/barnosky2011.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/knoll2011.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/Bioactive%20molecules%20from%20protists.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/Protist%20Field%20Work.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/neglected%20protist%20pathogens.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/research/archive</loc>
-  <lastmod>2021-05-01T15:13:02+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/research/longway</loc>
-  <lastmod>2021-05-01T15:13:02+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/tristen</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/locate/contact</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.tristanhenderson.info/sr.html</loc>
-  <lastmod>2021-05-01T15:13:02+00:00</lastmod>
+  <loc>https://www.tristanhenderson.info/library/bioref</loc>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/technical</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Notes%20on%20Eukaryotic%20Cells.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Locomotion.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Feeding.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Cytoskeleton.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Cysts.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Contractile%20Vacuoles.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/alastair/Mineralisation.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/Handbook%20of%20Protists.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/Collection,%20isolation,%20cultivation%20and%20identification%20of%20freshwater%20Protozoa.pdf</loc>
+  <lastmod>2021-05-24T01:46:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/Freeliving%20Freshwater%20Protozoa.pdf</loc>
+  <lastmod>2021-05-24T01:46:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/amoebozoa/A%20New%20Key%20to%20Freshwater%20and%20Soil%20Gymnamoebae.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/amoebozoa/Collection%20and%20Culturing%20of%20Free-living%20Amoebae.pdf</loc>
+  <lastmod>2021-05-24T01:46:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/amoebozoa/Dictyostelids.pdf</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/amoebozoa/Handbook%20of%20Protostelids.pdf</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/protists/amoebozoa/Marine%20Gymnamoebae.pdf</loc>
+  <lastmod>2021-05-24T01:46:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/nihms-908525.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/papers/annurev.genet.42.110807.091513.pdf</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/research/longway</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/contact</loc>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/sr</loc>
+  <lastmod>2021-05-24T01:46:09+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/insects</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/pyrocystis</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tristanhenderson.info/gallery/microscopy/pigIHC</loc>
-  <lastmod>2021-05-01T15:13:01+00:00</lastmod>
+  <lastmod>2021-05-24T01:46:05+00:00</lastmod>
   <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tristanhenderson.info/library/books/labtech/Fundamentals%20of%20Light%20Microscopy%20and%20Electronic%20Imaging.pdf</loc>
+  <lastmod>2021-05-24T01:46:06+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 
