@@ -21,12 +21,14 @@
 <link rel="stylesheet" href="../pmedia.css">
 <link rel='stylesheet' href='https://codepen.io/c0deMonkey/pen/qbPBoW.css'>
 <link rel="stylesheet" href="./biotools.css">
-<h2>
-    <A HREF="../education" style="text-decoration:none;">
-        <font size=5>
-            <font color=white>← back</font>
-    </A>
-</h2>
+<H1>Bio-Tools</H1>
+  <h4>
+      <A HREF="../vault" style="text-decoration:none;">
+          <font size=2>
+              <font color=white>← back</font>
+      </A>
+  </h4>
+  </br></br></br>
 <h6>
     Welcome to Bio-Tools. The internet is a vast wasteland of links and tubes. I'm a tube-dweller who hoards links to interesting and useful places. This is an eclectic collection of tools I've used and noted over the years. I continuously update this page when I discover new things.
 </h6>
@@ -34,20 +36,10 @@
     <font color=#4F777F> ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</font>
 </h6>
 <body>
-  <!-- partial:index.partial.html -->
-  <!--
-  When using D3, usually just the root container of a visualization is placed in the html, and D3 builds it out.
-  That way if you have static html content, or other visualizations, you can treat these containers like placeholders.
-  The html body then manages page layout and little else.
-  -->
+  <hgroup>
+
   <div id="topContainer"></div>
-  
-  <!--
-  The rest of this html file is just a hidden pre tag to hold the JSON data.
-  Normally I would have the JSON in its own .json file and load it with d3.JSON(),
-  however to keep the example contained in a single pen I am using JSON.parse() instead
-  (see bottom of the js file)
-  -->
+
   <pre style="display:none">
   [ {"heading":"Taxonomy"
     ,"links":
@@ -107,10 +99,6 @@
     }
   ]
   </pre>
-  <!--
-  https://stackoverflow.com/questions/13278707/how-to-convert-svg-files-to-a-font
-  -->
-  <!-- partial -->
     <script src='https://d3js.org/d3.v3.min.js'></script><script  src="./biotools.js"></script>
   
   </body>
